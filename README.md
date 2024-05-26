@@ -45,7 +45,7 @@ This repository is licensed under the MIT License. See the [LICENSE](LICENSE) fi
 
 - **YouTube**: [My YouTube Channel](https://www.youtube.com/channel/UCi5kDkMuRqITkyrsZU2WN7A)
 - **Stream Link**: [Stream Playlist Link](https://www.youtube.com/playlist?list=PLQzUEFfbgC_tiBEsL_UkSABaAcPRoOdqI)
-- **LinkedIn**: [My LinkedIn Profile]([https://www.linkedin.com/in/YourProfile](https://www.linkedin.com/in/amaanmk/))
+- **LinkedIn**: [My LinkedIn Profile](https://www.linkedin.com/in/amaanmk)
 
 Thank you for joining my YouTube streams and happy coding!
 
