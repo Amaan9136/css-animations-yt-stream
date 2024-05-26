@@ -1,0 +1,67 @@
+body {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.box {
+  width: 150px;
+  height: 100px;
+  background-color: #3498db;
+  margin: 20px;
+}
+
+/* additional topics on keyframes */
+
+@keyframes moveAnim{
+  0%{transform: translateX(0px);}
+  50%{transform: translateX(200px);}
+  100%{transform: translateX(0px);}
+}
+
+@keyframes rotateAnim{
+  0%{transform: rotate(0deg);}
+  50%{transform: rotate(180deg);}
+  100%{transform: rotate(360deg);}
+}
+
+@keyframes scaleAnim{
+  0%{transform: scale(1);}
+  50%{transform: scale(1.5);}
+  100%{transform: scale(1);}
+}
+
+@keyframes flicker{
+  0%{opacity:1;}
+  20%{opacity:0.5;}
+  40%{opacity:1;}
+  60%{opacity:0.5;}
+  80%{opacity:1;}
+  100%{opacity:0.5;}
+}
+
+/* paused */
+#box1{
+  animation: moveAnim 3s ease-in-out forwards infinite paused;
+}
+
+#box2{
+  animation: rotateAnim 3s infinite ease-in-out paused;
+}
+
+#box3{
+  animation: scaleAnim 3s infinite ease-in-out paused;
+}
+
+#box4{
+  animation: flicker 3s ease-in-out infinite paused;
+}
+
+#box1:hover,
+#box2:hover,
+#box3:hover,
+#box4:hover{
+  animation-play-state: running;
+}

@@ -1,0 +1,62 @@
+body{
+  background: #333;
+  font-family: verdana;
+}
+
+.wrapper{
+  width: 100%;
+  max-width: 1200px;
+  margin: 40px auto;
+}
+
+h1{
+  color: #fff;
+  font-weight: normal;
+  text-align: center;
+  font-size: 48px;
+}
+
+.panels{
+  list-style-type: none;
+  padding: 0;
+}
+
+.panels li{
+  position: relative;
+  width: 25%;
+  margin: 0;
+  display: block;
+  box-sizing: border-box;
+  float: left
+}
+
+.panels li div{
+  width: 100%;
+  padding: 50% 0;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 0;
+  cursor: pointer;
+}
+
+/*// ANIMATION STYLES //*/
+
+@keyframes myAnim{
+  from{
+    background-color: #267df4;
+  }
+  to{
+    background-color: #a144f7;
+    opacity: 0;
+    transform: translateX(3px);
+  }
+}
+
+.myclass:hover{
+  transform: scale(1.5);
+  color: red;
+  transition: all 1s;
+}
